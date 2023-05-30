@@ -41,7 +41,7 @@ public class ArrayHomework {
 
 		
 		for(int i=0; i<13; i++) {
-			for(int j=0; j< i+1; j++) {
+			for(int j=0; j < i+1; j++) {
 				if(i<7) {
 					if(i%2!=0)
 						System.out.print(array[j][i-j] + " ");

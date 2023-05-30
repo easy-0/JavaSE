@@ -1,7 +1,7 @@
 package section07;
 
 public class Car {
-	int wheel = 4; // 바퀴 4개
+	static int wheel = 4; // 바퀴 4개
 				   // 멤버필드 선언 및 초기화
 	
 	String color;
