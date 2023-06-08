@@ -17,8 +17,8 @@ public class Polymorphism01 {
 		
 		
 		Car car = new Bus();
-		car.drive();
-//		car.bell();
+		car.drive(); //오버로딩된 객체로 호출
+//		car.bell(); //자식객체 메소드 호출 불가능
 		
 		Bus bus2 = (Bus) car;
 		bus2.drive();
