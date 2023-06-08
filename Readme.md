@@ -28,7 +28,7 @@
 
 #### 변수
 - 타입
-  - 기본형(8개) - boolean, char, byte, short, int, long, float, double => 실제 값을 가지고 있는
+  - 기본형(8개) - boolean, char, byte, short, int, long, float, double => 실제 값을 가지고 있는 변수
   - 참조형 - 기본형 외 모든 변수 => 객체 주소값을 가지고 있는 변수
 - 선언위치
   - 전역변수 - 클래스에 종속된 변수, 멤버변수, 멤버필드
