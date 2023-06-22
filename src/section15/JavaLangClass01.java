@@ -24,7 +24,20 @@ import section15.access1.Sports;
 public class JavaLangClass01 {
 	public static void main(String[] args) {
 		Sports sports1 = new Sports("수영", false);
+		Sports sports2 = new Sports("수영", false);
 		System.out.println(sports1);
 		System.out.println(sports1.toString());
+		
+		if(sports1.equals(sports2)) {
+			System.out.println("sports1 과 sports2 는 같습니다.");
+		}else {
+			System.out.println("sports1 과 sports2 는 다릅니다.");
+		}
+		
+		System.out.println(System.identityHashCode(sports1));
+		System.out.println(System.identityHashCode(sports2));
+		
+		System.out.println(sports1.hashCode());
+		System.out.println(sports2.hashCode());
 	}
 }

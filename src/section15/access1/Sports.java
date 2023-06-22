@@ -1,6 +1,6 @@
 package section15.access1;
 
-public class Sports {
+public class Sports implements Cloneable{
 	public String name;
 	public boolean isTeam;
 	
@@ -18,4 +18,12 @@ public class Sports {
 		return name + "@" + strTeam;
 	}
 	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+	
+	public Object callClone() throws CloneNotSupportedException {
+		return clone();
+	}
 }
