@@ -44,7 +44,7 @@ INSERT 문을 subquery로 작성
 DROP TABLE sales_reps;
 CREATE TABLE sales_reps
 AS (SELECT employee_id id, last_name name, salary, commission_pct
-    FROM employees WHERE 1=2)
+    FROM employees WHERE 1=2)		// WHERE 1=2 틀린 조건으로 정보없이 스키마만 가져옴 
 ;
 */
 

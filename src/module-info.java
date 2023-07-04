@@ -6,4 +6,6 @@
  *
  */
 module javaSE {
+	
+	requires java.sql;
 }
